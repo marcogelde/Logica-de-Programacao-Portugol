@@ -1,0 +1,258 @@
+Exercício 1: Soma de Dois Números
+Escreva uma função que recebe dois números como parâmetros e retorna a soma deles.
+
+Exemplo:
+
+programa
+{
+	inteiro n1, n2
+	
+	funcao inicio()
+	{
+		escreva("Qual o primeiro número? ") leia(n1)
+		escreva("Qual o segundo número? ") leia(n2)
+		escreva("A soma é: ", soma(n1,n2))
+	}
+
+	funcao inteiro soma(inteiro a, inteiro b)
+	{
+		retorne a+b
+	}
+}
+
+
+Exercício 2: Verificar Par ou Ímpar
+Crie uma função que recebe um número como parâmetro e retorna verdadeiro se o número for par e falso se for ímpar.
+
+Exemplo:
+
+programa
+{
+	inteiro n1, n2
+	
+	funcao inicio()
+	{
+		escreva("Qual número você deseja verificar se é par ou ímpar? ")
+		leia(n1)
+		escreva(n1," é par? ", Par(n1))
+		escreva("\n\nQual número você deseja verificar se é par ou ímpar? ")
+		leia(n2)
+		escreva(n2," é par? ", Par(n2))
+
+	}
+	
+	funcao logico Par(inteiro n)
+	{
+		retorne n%2 == 0
+	}
+}
+
+
+Exercício 3: Maior de Três Números
+Escreva uma função que recebe três números como parâmetros e retorna o maior deles.
+
+Exemplo:
+
+programa
+{
+	funcao inicio()
+	{
+		inteiro n1, n2, n3
+		
+		escreva("Qual será o seu primeiro número? ")
+		leia(n1)
+		escreva("Qual será o seu segundo número? ")
+		leia(n2)
+		escreva("Qual será o seu terceiro número? ")
+		leia(n3)
+		escreva("O maior é: ", maiorDeTres(n1, n2, n3))
+	}
+
+	funcao inteiro maiorDeTres(inteiro a, inteiro b, inteiro c)
+	{
+		se(a>=b e a>=c)
+		{
+			retorne a
+		}
+
+		senao se(b>=a e b>=c)
+		{
+			retorne b
+		}
+
+		senao
+		{
+			retorne c
+		}
+	}
+}
+
+
+Exercício 4: Fatorial
+Crie uma função que recebe um número inteiro como parâmetro e retorna o fatorial desse número.
+
+Exemplo:
+
+portugol
+funcao inteiro fatorial(inteiro n)
+{
+    inteiro resultado = 1
+    para (inteiro i = 1; i <= n; i++)
+    {
+        resultado = resultado * i
+    }
+    retorno resultado
+}
+
+funcao inicio()
+{
+    escreva("O fatorial de 5 é: ", fatorial(5)) // Saída esperada: O fatorial de 5 é: 120
+}
+
+
+### Exercício 5: Contar Elementos em um Vetor
+Escreva uma função que recebe um vetor e um elemento como parâmetros, e retorna a quantidade de vezes que o elemento aparece no vetor.
+
+#### Exemplo:
+
+funcao inteiro contar_elementos(inteiro vetor[], inteiro elemento)
+{
+    inteiro contador = 0
+    para (inteiro i = 0; i < tamanho(vetor); i++)
+    {
+        se (vetor[i] == elemento)
+        {
+            contador++
+        }
+    }
+    retorno contador
+}
+
+funcao inicio()
+{
+    inteiro vetor[7] = {1, 2, 2, 3, 4, 2, 5}
+    escreva("O elemento 2 aparece ", contar_elementos(vetor, 2), " vezes.") // Saída esperada: O elemento 2 aparece 3 vezes.
+}
+
+
+Exercício 6: Média de uma Lista de Números
+Crie uma função que recebe um vetor de números como parâmetro e retorna a média desses números.
+
+Exemplo:
+
+funcao real media(inteiro vetor[])
+{
+    inteiro soma = 0
+    para (inteiro i = 0; i < tamanho(vetor); i++)
+    {
+        soma = soma + vetor[i]
+    }
+    retorno soma / tamanho(vetor)
+}
+
+funcao inicio()
+{
+    inteiro vetor[5] = {1, 2, 3, 4, 5}
+    escreva("A média é: ", media(vetor)) // Saída esperada: A média é: 3.0
+}
+
+
+Exercício 7: Verificar Palíndromo
+Escreva uma função que recebe uma string como parâmetro e retorna verdadeiro se a string for um palíndromo e falso caso contrário.
+
+Exemplo:
+
+programa
+{
+	inclua biblioteca Texto --> t
+	funcao inicio()
+	{
+     	escreva("radar é palíndromo? ", palindromo("radar"), "\n")
+     	escreva("python é palíndromo? ", palindromo("python"), "\n")
+    	}
+
+    funcao logico palindromo(cadeia s)
+    {
+        inteiro iniciox = 0
+        inteiro fim = t.numero_caracteres(s)-1
+
+        enquanto (iniciox < fim)
+        {
+            se (t.obter_caracter(s, iniciox) != t.obter_caracter(s, fim))
+            {
+                retorne falso
+            }
+            iniciox++
+            fim--
+        }
+        retorne verdadeiro
+    }
+}
+
+
+Exercício 8: Converter Graus Celsius para Fahrenheit
+Crie uma função que recebe uma temperatura em graus Celsius como parâmetro e retorna a temperatura convertida para Fahrenheit.
+
+Exemplo:
+
+funcao real celsius_para_fahrenheit(real c)
+{
+    retorno (c * 9/5) + 32
+}
+
+funcao inicio()
+{
+    escreva("0 graus Celsius em Fahrenheit é: ", celsius_para_fahrenheit(0)) // Saída esperada: 0 graus Celsius em Fahrenheit é: 32.0
+    escreva("100 graus Celsius em Fahrenheit é: ", celsius_para_fahrenheit(100)) // Saída esperada: 100 graus Celsius em Fahrenheit é: 212.0
+}
+
+
+Exercício 9: Encontrar o Índice de um Elemento
+Escreva uma função que recebe um vetor e um elemento como parâmetros e retorna o índice do primeiro aparecimento do elemento no vetor, ou -1 se o elemento não estiver presente.
+
+Exemplo:
+
+programa
+{
+	
+const inteiro quant = 5
+	
+	funcao inicio()
+	{
+    	inteiro vetor[quant] = {1, 2, 3, 4, 5}
+    	escreva("O índice do elemento 3 é: ", encontrar_indice(vetor, 3),"\n") // Saída esperada: O índice do elemento 3 é: 2
+    	escreva("O índice do elemento 6 é: ", encontrar_indice(vetor, 6),"\n") // Saída esperada: O índice do elemento 6 é: -1
+	}
+
+	funcao inteiro encontrar_indice(inteiro vetor[], inteiro elemento)
+	{
+    	para (inteiro i = 0; i < quant; i++)
+    	{
+   		se (vetor[i] == elemento)
+        	{
+          	retorne i
+        	}
+    	}
+    	retorne -1
+	}
+}
+
+
+
+Exercício 10: Concatenar Duas Strings
+Crie uma função que recebe duas strings como parâmetros e retorna a concatenação dessas strings.
+
+Exemplo:
+
+programa
+{
+	funcao inicio()
+	{
+	    escreva(concatenar("Hello, ", "World!")) // Saída esperada: Hello, World!
+	}
+
+	funcao cadeia concatenar(cadeia s1, cadeia s2)
+	{
+	    retorne s1 + s2
+	}
+}

@@ -1,0 +1,49 @@
+1) Estrutura de dados que armazemanm os elementos em formato sequencial, empilhando um item acima do outro?
+a - pilha <<<<<<<<<<<<<<
+b - fila
+c - matriz
+ 
+2) Conjunto de dados divididos por linhas e colunas:
+a - Vetor
+b - Matriz <<<
+c - Variavel
+
+3) São tipos que permitem o armazenamento de uma coleção de valores do mesmo tipo:
+a - Cadeia
+b - Matriz <<<
+c - Inteiro 
+
+4) São estruturas de dados bastante utilizados na computação onde o primeiro elemento a ser inserido será também o primeiro a ser retirado:
+a - lógico
+b - fila <<<<<
+c - desempilhar
+
+5) Qual dessas é uma pseudolinguagem?
+a - Java 
+b - VisualG <<<<<
+c - Rust
+
+6) Para que se usa um vetor?
+a - Ordenar dados
+b - Guardar dados <<<
+c - Somar dados
+
+7) Para que se usa a função Merge Sort?
+a - Mostrar dados
+b - Sorteio de dados
+c - Dividir dados <<<
+
+8) O que é um laço de repetição?
+a - São utilizados para executar repetidamente uma instrução<<<
+b - São utilizados para somar um elemento 
+c - São utilizados para guardar dados
+
+9) O que é um escopo?
+a - Visibilidade de variáveis em diferente partes de um código <<<
+b - Visibilidade do código em partes
+c - Visibilidade e acessibiildade de variáveis em diferentes partes de um código
+
+10) O que é uma cadeia na declaração de variáveis?
+a - É um conjunto de caracter contíguos na memória terminado <<<
+b - Uma estrutura que permite executar mais de uma vez o mesmo comando
+c - Casa de detenção, presídio, prisão

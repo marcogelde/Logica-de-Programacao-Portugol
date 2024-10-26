@@ -1,0 +1,5 @@
+configurar aeronave
+Só pode aumentar a aeronave e não diminuir, pra não perde pessoa que ja fez reserva
+
+escolher poltrona ja exitente mostrR que ja esta reservada
+editar uma pessoa no momento da busca, só visualizar, cancelar, trocar de poltrona

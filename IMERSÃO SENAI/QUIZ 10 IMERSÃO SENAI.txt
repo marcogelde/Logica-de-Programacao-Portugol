@@ -1,0 +1,50 @@
+1) Tipo de dado: Qual tipo de dado melhor representa a temperatura em graus celsius:
+-cadeia
+-inteiro
+-real 
+
+2) Linguagens tipadas e não tipadas: Qual linguagem é tipada?
+-Assembly
+-Java
+-TCL
+
+3) Algebra booleana: Quais são os dois tipos de valores booleanos possiveis?
+-verdadeiro ou falso
+-logico e racional
+-e, ou
+
+4) O que é um pseudocodigo?
+-Uma linguagem de programação específica usada para escrever código executável.
+-Um conjunto de 0símbolos gráficos usados para criar diagramas de fluxo de dados.
+-Uma forma simplificada de descrever algoritmos usando uma combinação de linguagem natural e estrutura de código.
+
+5) Qual a diferença entre um vetor e uma matriz?
+-Um vetor é uma coleção de elementos organizados em linhas e colunas, enquanto uma matriz é uma coleção de elementos organizados em uma única linha.
+-Um vetor é uma estrutura de dados unidimensional que armazena uma sequência de elementos, enquanto uma matriz é uma estrutura de dados bidimensional que armazena elementos em linhas e colunas.
+-Um vetor pode armazenar tipos de dados diferentes em cada posição, enquanto uma matriz só pode armazenar um único tipo de dado.
+
+6) Qual a diferença entre uma pilha e uma fila?
+-Uma pilha é como uma pilha de pratos: você tira o último que colocou primeiro. Já uma fila é como uma fila de pessoas esperando no banco, onde o primeiro que chegou é o primeiro a ser atendido.
+-Uma pilha serve para organizar coisas de forma que você pegue a última que colocou primeiro, como uma torre de blocos. Uma fila é para organizar coisas em ordem, como esperar sua vez no caixa de um mercado.
+-Pilhas é quando o primeiro a entrar é o primeiro a sair e fila o ultimo a entrar é o primeiro a sair
+
+7) Qual destes não é um operador aritmético
+- /
+- %
+- =
+ 
+8) Qual a definição do operador lógico OU
+- Todas as propriedas testadas deveram ser verdadeiras
+- Basta uma condição ser verdadeira para a expressão seja verdadeira
+- Ele inverte o valor booleano
+
+9) Que variavel utilizamos para alcançar os índices dentro de um vetor?
+- ponteiro
+- vetor[ ]
+- recursividade
+
+10) Qual é um dos algoritmos mais simples de ordenação, adequado para pequenos conjuntos de dados?
+-Bubble Sort
+-Quick Sort
+-Merge Sort
+
